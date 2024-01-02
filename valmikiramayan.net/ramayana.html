@@ -1,0 +1,699 @@
+<!doctype html>
+
+<html>
+
+
+<!-- Mirrored from valmikiramayan.net/ramayana.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 31 Dec 2023 08:50:26 GMT -->
+<head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+<script src="jquery_tools.js"></script>
+	<script src="build/jquery.js"></script>	
+	<script src="build/mediaelement-and-player.min.js"></script>
+	<link rel="stylesheet" href="build/mediaelementplayer.min.css" />
+   
+
+   <meta name="description" content="Translation from Sanskrit to English of Valmiki Ramayana. Original Sankrit verses along with English translation is provided.">
+
+   <meta name="keywords" content="Ramayan,Ramayanam,Srimad  Ramayana">
+
+   <meta name="GENERATOR" content="Microsoft FrontPage 5.0">
+
+   <title> Valmiki Ramayana </title>
+   <style type="text/css">  
+   .jqx-alert  
+   {  
+     position: absolute;  
+     overflow: hidden;  
+     z-index: 99999;  
+     margin: 0;  
+     padding: 0;  
+   }  
+   .jqx-alert-header  
+   {  
+     outline: none;  
+     border: 1px solid #999;  
+     overflow: hidden;  
+     padding: 5px;  
+     height: auto;  
+     white-space: nowrap;  
+     overflow: hidden;  
+     background-color:#E8E8E8; background-image:-webkit-gradient(linear,0 0,0 100%,from(#fafafa),to(#dadada)); background-image:-moz-linear-gradient(top,#fafafa,#dadada); background-image:-o-linear-gradient(top,#fafafa,#dadada);     
+   }  
+   .jqx-alert-content  
+   {  
+     outline: none;  
+     overflow: auto;  
+     text-align: left;  
+     background-color: #fff;  
+     padding: 5px;  
+     border: 1px solid #999;  
+     border-top: none;  
+	 width:500px;
+	 white-space: pre-wrap;
+   }  
+ </style>  
+	<style>
+  #facebox {
+ 
+    /* overlay is hidden before loading */
+    display:none;
+ 
+    /* standard decorations */
+    width:400px;
+    border:10px solid #666;
+ 
+    /* for modern browsers use semi-transparent color on the border. nice! */
+    border:10px solid rgba(82, 82, 82, 0.698);
+ 
+    /* hot CSS3 features for mozilla and webkit-based browsers (rounded borders) */
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+  }
+ 
+  #facebox div {
+    padding:10px;
+    border:1px solid #3B5998;
+    background-color:#fff;
+    font-family:"lucida grande",tahoma,verdana,arial,sans-serif
+  }
+ 
+  #facebox h2 {
+    margin:-11px;
+    margin-bottom:0px;
+    color:#fff;
+    background-color:#6D84B4;
+    padding:5px 10px;
+    border:1px solid #3B5998;
+    font-size:20px;
+  }
+  
+	</style>
+   <style>
+
+body         {
+
+        font-size: 12pt;
+
+        font-family: "New Times Roman";
+
+        font-weight: normal;
+
+        text-align: Left;
+
+        color: Navy;
+
+        text-indent: 50;
+
+        }
+
+h1, h2, h3, h4, h5, h6
+
+{
+
+	font-family: "New Times Roman";
+
+}
+
+h1
+
+{
+
+	color: Navy;
+
+	font-size: 16pt;
+
+	font-weight: bold;
+
+	text-align: center;
+
+	text-indent: 0;
+
+}
+
+h2
+
+{
+
+	color: Navy;
+
+	font-size: 12pt;
+
+	font-weight: bold;
+
+	text-align: center;
+
+	text-indent: 0;
+
+}
+
+h3
+
+{
+
+	color: Navy;
+
+	font-size: 12pt;
+
+	font-weight: normal;
+
+	text-align: left;
+
+	text-indent: 50;
+
+
+
+}
+
+
+
+A {
+
+	color: Black;
+
+
+
+}
+
+
+
+A:Hover {
+
+	color: Green;
+
+}
+
+
+
+HR {
+
+	height: 1pt;
+
+}
+
+
+
+img
+
+{
+
+	text-indent: 0;
+
+
+
+}
+
+a:visited
+
+{
+
+	color: Purple;
+
+	font-weight: normal;
+
+}
+
+a:active
+
+{
+
+	color: rgb(153,0,255);
+
+}
+
+
+
+
+
+table
+
+{
+
+	table-border-color-light: rgb(204,153,255);
+
+	table-border-color-dark: rgb(102,0,102);
+
+}
+
+   </style>
+
+   <link rel="stylesheet" type="text/css" href="template/rss.css">
+
+</head>
+
+<body>
+
+ <script type="text/javascript">  
+      jqxAlert = {  
+           // top offset.  
+           top: 0,  
+           // left offset.  
+           left: 0,  
+           // opacity of the overlay element.  
+           overlayOpacity: 0.2,  
+           // background of the overlay element.  
+           overlayColor: '#ddd',  
+           // display alert.  
+           alert: function (message, title) {  
+                if (title == null) title = 'New - Ramayana Verses in Audio';  
+                jqxAlert._show(title, message);  
+           },  
+           // initializes a new alert and displays it.  
+           _show: function (title, msg) {  
+                jqxAlert._hide();  
+                jqxAlert._handleOverlay('show');  
+                $("BODY").append(  
+                          '<div class="jqx-alert" style="width: auto; height: auto; overflow: hidden; white-space: nowrap;" id="alert_container">' +  
+                          '<div id="alert_title"></div>' +  
+                          '<div id="alert_content">' +  
+                               '<div id="message"></div>' +  
+                               '<input style="margin-top: 10px;" type="button" value="Ok" id="alert_button"/>' +  
+                          '</div>' +  
+                          '</div>');  
+                $("#alert_title").text(title);  
+                $("#alert_title").addClass('jqx-alert-header');  
+                $("#alert_content").addClass('jqx-alert-content');  
+                $("#message").text(msg);  
+                $("#alert_button").width(70);  
+                $("#alert_button").click(function () {  
+                     jqxAlert._hide();  
+                });  
+                jqxAlert._setPosition();  
+           },  
+           // hide alert.  
+           _hide: function () {  
+                $("#alert_container").remove();  
+                jqxAlert._handleOverlay('hide');  
+           },  
+           // initialize the overlay element.   
+           _handleOverlay: function (status) {  
+                switch (status) {  
+                     case 'show':  
+                          jqxAlert._handleOverlay('hide');  
+                          $("BODY").append('<div id="alert_overlay"></div>');  
+                          $("#alert_overlay").css({  
+                               position: 'absolute',  
+                               zIndex: 99998,  
+                               top: '0px',  
+                               left: '0px',  
+                               width: '100%',  
+                               height: $(document).height(),  
+                               background: jqxAlert.overlayColor,  
+                               opacity: jqxAlert.overlayOpacity  
+                          });  
+                          break;  
+                     case 'hide':  
+                          $("#alert_overlay").remove();  
+                          break;  
+                }  
+           },  
+           // sets the alert's position.  
+           _setPosition: function () {  
+                // center screen with offset.  
+                var top = (($(window).height() / 2) - ($("#alert_container").outerHeight() / 2)) + jqxAlert.top;  
+                var left = (($(window).width() / 2) - ($("#alert_container").outerWidth() / 2)) + jqxAlert.left;  
+                if (top < 0) {  
+                     top = 0;  
+                }  
+                if (left < 0) {  
+                     left = 0;  
+                }  
+                // set position.  
+                $("#alert_container").css({  
+                     top: top + 'px',  
+                     left: left + 'px'  
+                });  
+                // update overlay.  
+                $("#alert_overlay").height($(document).height());  
+           }  
+      }
+	  
+ </script>
+
+<center>
+
+<br><img border="0" src="vrhd.jpg" align="center" width="500" height="225"></center>
+
+
+
+<p>Srimad Valmiki Ramayana is an epic poem of India which narrates the journey of Virtue
+
+to annihilate vice. Sri&nbsp; Rama is the Hero and <i> aayana</i> His journey.
+
+We in India believe that Sri Rama lived in <i>Treta Yug</i>, millennia BC and we are presently concerned with what 
+
+Srimad Valmiki Ramayana tells us, rather than when it was told.<p>This epic poem 
+
+Ramayana is a <i>smriti </i>which is translated as &quot;from memory&quot;. Given the 
+
+antiquity of Srimad Valmiki Ramayana, there have been some interjected verses. 
+
+Sometimes these verses can be contradicting. However, scholars,
+
+grammarians, historians have put lot of effort to standardize the original
+
+text, by verifying various manuscripts available from various parts of
+
+India, thus trying to stabilize and save the text from further contradictions. 
+
+An example of this effort is the critical edition of Srimad Valmiki Ramayana. 
+
+This site aims to study various versions of Srimad Valmiki Ramayana and arrive 
+
+at a version of Ramayana that is most relevant to modern times.&nbsp;
+
+<p>Srimad Valmiki Ramayana is composed of verses called <i>Sloka</i>, in Sanskrit 
+
+language, which is an ancient language from India
+
+and a complex meter called <i>Anustup</i>. These verses are grouped into individual
+
+chapters called <i>Sargas</i>, wherein a specific event or intent is told. These
+
+chapters or <i>sargas</i> are grouped into books called <i> Kaandas</i> where <i>Kaanda</i> means
+
+the inter-node stem of sugar cane, or also a particular phase of the story
+
+or an event in the course of story telling.
+
+<p>Thus the structure of <i>Srimad Valmiki Ramayana</i> is arranged into six <i>Kaandas</i> or Books,
+
+and they are:
+
+<ol>
+
+<li>
+
+<a href="utf8/baala/baala_contents.html">Bala Kanda ( Book of Youth)</a> [77 chapters]</li>
+
+
+
+<li>
+
+<a href="utf8/ayodhya/ayodhya_contents.html">Ayodhya Kanda (Book of Ayodhya)</a> [119
+
+    chapters]</li>
+
+
+
+<li>
+
+    <a href="utf8/aranya/aranya_contents.html" target="_self">Aranya Kanda (Book of Forest )</a> [75 chapters]</li>
+
+
+
+<li>
+
+<a href="utf8/kish/kishkindha_contents.html">Kishkindha Kanda (The Empire of Holy Monkeys)</a>
+
+    [67 chapters]</li>
+
+
+
+<li>
+
+<a href="utf8/sundara/sundara_contents.html">Sundara Kanda ( Book of Beauty )</a> [68
+
+    chapters]</li>
+
+
+
+<li>
+
+    <a href="utf8/yuddha/yuddha_contents.html">Yuddha Kanda ( Book of War )</a> [128 chapters]</li>
+
+</ol>
+
+
+
+<p>While stabilizing the original text of Ramayana, historians surmised
+
+that portions of two Books [<i>Kaandas</i>], namely Book I, Bala Kaanda and Book VII, Uttara
+
+Ramayana (not listed above) are later additions - <b><i>&quot;The first and
+
+the last Books of the Ramayana are later additions. The bulk, consisting
+
+of Books II--VI, represents Rama as an ideal hero. In Books I and VII,
+
+however Rama is made an avatara or incarnation of Vishnu, and the epic
+
+poem is transformed into a Vaishnava text. The reference to the Greeks,
+
+Parthians, and Sakas show that these Books cannot be earlier than the second
+
+century B.C......&quot;</i>[ The cultural Heritage of India, Vol. IV, The Religions,
+
+The Ramakrishna Mission, Institute of Culture ].</b>
+
+<p>However Book I, Balakanda is considered to be an original version except
+
+for some injected stories. Story starts from the fifth chapter of Book
+
+I, and tradition demands it to be read with the others. This stipulation
+
+is not obligatory to Uttara Kaanda, a later <i>kaanda</i>, wherein Sita's 
+
+expulsion to forest takes place. Theologists worship Sri
+
+Rama as a God incarnate, philosophers make him the philosophical Absolute,
+
+while at the same time, materialists, condemning the above, appreciate
+
+the lyrical values of Ramayana, but as a great devotee-singer said &quot;Whoever calls you in whatever way, you are that 
+
+One&quot;.&nbsp;
+
+<p>Ramayana contains 24,000 verses [<i>sloka</i>]
+
+arranged into numerous cantos [<i>sarga</i>] which are contained in 6 books as 
+
+mentioned earlier. Each chapter, <i>sarga</i>, will be given briefly
+
+in english prose at its start and each verse will be rendered into Anglo-Sanskrit
+
+transliteration using ITRANS
+
+transliteration scheme developed by Avinash Chopde. Each verse will be followed by the Word by Word meaning followed
+
+by its gist and explained based on theism, culture, literature as appropriate.
+
+The numbering of each verse will be in the format Book-Canto-Verse. We
+
+are also providing Verses in Devanagari Unicode 
+
+and Roman fonts for easier readability. The authors would like
+
+to express their appreciation to Avinash Chopde for
+
+developing ITRANS scheme.
+
+<p>This Valmiki Ramayana in Sanskrit is being translated and presented by <a href="DHp.html" target="_top">Sri
+
+Desiraju Hanumanta Rao</a> (Bala, Aranya and Kishkindha Kanda ) and <a href="MHp.html" target="_top">Sri
+
+K. M. K. Murthy</a> (Ayodhya, Sundara (28-Last sargas) and Yuddha Kanda) with contributions from Durga Naaga Devi 
+
+and Vaasudeva Kishore (Sundara Kanda (1-27 sargas)); Smt. Desiraju Kumari; Smt. K. Rajeswari, with all enthusiasm and devotion to
+
+classical literature of India, with humble and due respect to elders, pundits
+
+and to all those who respect Srimad Valmiki Ramayana the epic poem.
+<br><br>
+We have started work on rendering Sanskrit verses into audio, an idea given by Prof. (Dr.) Sravan Goparaju. Following people are contributing to this effort:
+<br>Bala Kanda - Dr. (Mrs.) V. Roja Ravindra, Smt. Sujatha Srinivas Goparaju
+<br>Kishkindha Kanda - Smt. Sujatha Srinivas Goparaju
+<br>Sundara Kanda - Smt. Aswini Ram Tulluri, Sri. Sasikiran Chintalapudi and Smt. Swapna Sasikiran Chintalapudi
+<br>
+Audio mixing - Dr. V.S. Ravindra, Sri. V.S. Sailendra
+<br><br>
+<p>
+The verse below is recited at the beginning of any auspicious task. It invokes the all pervading God. 
+</p>
+<center>
+<p align="center"><span style="font-size:14pt;">
+<audio id="player1" src="media/suklambaradaram.mp3" type="audio/mp3" controls="controls">		
+</audio>
+<br>
+<b>
+shuklaambaradharam vishhNum shashi varNam caturbhujam |
+<br>prasanna vadanam dhyaayet sarvavighnopashaantaye ||
+</b>
+<br>
+<br>
+
+"The One Who is adorned with a white garment, Who is All-Pervading, Who is bright as a full moon, Who has four arms,
+and Who has a pleasant smiling face, may be meditated upon to extinguish all obstacles."</center>
+</p>
+
+<center>
+<audio id="player1" src="media/aapadamapa.mp3" type="audio/mp3" controls="controls">		
+</audio>
+</center>
+<p align="center"><span style="font-size:14pt;"><b>aapadaam apahartaaram daataaram sarvasaMpadaam.h |<br>
+
+lokaabhiraamam shriiraamam bhuuyo bhuuyo namaamyaham.h ||<br>
+
+
+
+</b></span><p align="center"><span style="font-size:14pt;">"I bow again and again to Sri Rama Who removes 
+(all) obstacles, grants all wealth and pleases all."
+
+<p>This is a salutation offered at the start of reading any scripture as per 
+
+tradition. This prayer is for removing all obstacles encountered. The prefix Sri 
+
+to Rama indicates that Rama is always accompanied by Sri, His consort Seetha in 
+
+the form of goddess Sri Maha Lakshmi.
+
+<br>&nbsp;
+
+<table align="center" cellpadding="0" cellspacing="0" width="923">
+
+    <tr>
+
+        <td width="130">
+
+            <p align="center"><a href="utf8/baala/baala_contents.html">Bala 
+
+            Kanda</a>
+
+            </p>
+
+        </td>
+
+        <td width="160"><p align="center"><a href="utf8/ayodhya/ayodhya_contents.html">Ayodhya
+
+Kanda</a>
+
+        </td>
+
+        <td width="160"><p align="center"><a href="utf8/aranya/aranya_contents.html" target="_self">Aranya 
+
+            Kanda</a>
+
+        </td>
+
+        <td width="173"><p align="center"><a href="utf8/kish/kishkindha_contents.html">Kishkindha Kanda</a>
+
+</td>
+
+        <td width="152"><p align="center"><a href="utf8/sundara/sundara_contents.html">Sundara Kanda</a>
+
+</td>
+
+        <td width="148">
+
+            <p><a href="utf8/yuddha/yuddha_contents.html">Yuddha Kanda</a></p>
+
+
+
+</td>
+
+    </tr>
+
+</table>
+<br>
+
+<center><a href="giirvaani/default.html" target="_blank">Link to Giirvaani site by Sri. Desiraju Hanumanta Rao</a></center>
+ 
+<center>
+
+<p><b><font face="Arioso"><font color="#3333FF"><span style="font-size:10pt;">This page received more than 1000000 hits since inception in October 11 1998 
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+try {
+var pageTracker = _gat._getTracker("UA-10645181-1");
+pageTracker._trackPageview();
+} catch(err) {}</script></span></font></font></b><span style="font-size:10pt;"><font face="Arioso">.</font></span>
+<p><b><font color="#000000"><span style="font-size:8pt;">&copy; 1998-2008, </span><a href="DHp.html" target="_top"><span style="font-size:8pt;">Desiraju
+
+Hanumanta Rao</span></a><span style="font-size:8pt;"> &amp; </span><a href="MHp.html" target="_top"><span style="font-size:8pt;">K. M. K. Murthy</span></a></font></b></center>
+
+<script src="www.google-analytics.com/urchin.html" type="text/javascript">
+
+</script>
+<!-- facebook dialog -->
+<div id="facebox">
+  <div>
+    <h2>Ramayana Verses in audio</h2>
+    <p>
+      We are working on rendering all the Valmiki Ramayana slokas into audio. Please do visit the Kandas from the bottom frame of main page after clearing cache from your browser.
+    </p>
+
+    <p style="color:#666">
+      To close this window, click the Close button or hit the ESC key.
+    </p>
+    <!-- yes/no buttons -->
+    <p>
+      <button class="close"> Close </button>
+    </p>
+  </div>
+</div>
+<div class="box" >
+<script>
+/*
+$(parent.document).ready(function() {
+
+    // select the overlay element - and "make it an overlay"
+  $("#facebox").overlay({
+
+    // custom top position
+    top: 260,
+
+    // some mask tweaks suitable for facebox-looking dialogs
+    mask: {
+
+    // you might also consider a "transparent" color for the mask
+    color: '#fff',
+
+    // load mask a little faster
+    loadSpeed: 200,
+
+    // very transparent
+    opacity: 0.5
+    },
+
+    // disable this for modal dialog-type of overlays
+    closeOnClick: false,
+
+    // load it immediately after the construction
+    load: true
+
+    });
+    });
+*/
+	</script>
+<script type="text/javascript">
+
+_uacct = "UA-923400-1";
+
+urchinTracker();
+
+</script>
+<script>
+$('audio,video').mediaelementplayer();
+</script>
+<!-- Piwik -->
+<script type="text/javascript">
+  var _paq = _paq || [];
+  _paq.push(['trackPageView']);
+  _paq.push(['enableLinkTracking']);
+  (function() {
+    var u="http://edthebe.com/piwik/";
+    _paq.push(['setTrackerUrl', u+'piwik.php']);
+    _paq.push(['setSiteId', 1]);
+    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+  })();
+</script>
+<noscript><p><img src="http://edthebe.com/piwik/piwik.php?idsite=1" style="border:0;" alt="" /></p></noscript>
+<!-- End Piwik Code -->
+</body>
+
+
+<!-- Mirrored from valmikiramayan.net/ramayana.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 31 Dec 2023 08:50:50 GMT -->
+</html>
+
